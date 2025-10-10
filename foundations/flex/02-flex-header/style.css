@@ -1,6 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+
   display: flex;
   justify-content: space-between;
   height: 90px;
@@ -14,10 +15,6 @@
 .left-links ul, .right-links ul {
   display: flex;
 }
-
-/* .right-links {
-  margin-right: 40px;
-} */
 
 .logo {
   font-size: 48px;

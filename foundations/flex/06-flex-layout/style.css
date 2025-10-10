@@ -19,8 +19,69 @@ button {
 }
 
 input {
-  border: 1px solid #ddd;
+  border: 1px solid lightgray;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* Solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,.content,.footer {
+  padding: 0px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .left-links, .right-links {
+  display: flex;
+  gap: 30px;
+}
+
+.content {
+  height: 832px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.content .input {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.footer .left-links, .right-links {
+  display: flex;
+  gap: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #86868a;
 }
